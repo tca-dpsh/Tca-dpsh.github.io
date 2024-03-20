@@ -1,8 +1,10 @@
 body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
-    background: linear-gradient(to bottom, pink, white);
+    background: linear-gradient(to right, #ff9a9e, #fad0c4); /* Gradien latar belakang */
+    color: #333;
+    text-align: center;
 }
 
 .container {
@@ -13,7 +15,6 @@ body {
 header {
     background-color: white;
     padding: 20px 0;
-    text-align: center;
 }
 
 header h1 {
@@ -25,32 +26,43 @@ main {
 }
 
 section {
-    padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8);
     margin-bottom: 20px;
 }
 
-button {
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-    border-radius: 5px;
+h2 {
+    margin-top: 0;
 }
 
-.button {
-    background-color: #f44336;
-    color: white;
-    text-decoration: none;
-    margin-right: 10px;
+p {
+    font-size: 1.2em;
 }
 
-.button:hover {
-    background-color: #d32f2f;
+.box {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Bayangan kotak */
+}
+
+.yellow {
+    background-color: #ffcc00; /* Kotak dengan warna kuning */
+}
+
+.light-blue {
+    background-color: #66ccff; /* Kotak dengan warna biru muda */
+}
+
+.light-pink {
+    background-color: #ff6666; /* Kotak dengan warna merah muda */
+}
+
+.light-green {
+    background-color: #99ff99; /* Kotak dengan warna hijau muda */
 }
 
 footer {
     background-color: white;
     padding: 20px 0;
-    text-align: center;
 }
